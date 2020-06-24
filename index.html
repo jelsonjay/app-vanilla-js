@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Block Element Modfi BEM</title>
+        <meta charset="UTF-8" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <h1>This is the quiz!</h1>
+
+        <div class="container">
+
+            <form id="form" name="form">
+
+                <p>What is the capilat of Angola</p>
+                <input type="text" id="text-input" name="quest1">
+
+                <p>What is the capilat of Angola</p>
+                <input type="radio" id="mc" name="quest2" value="Paris">Paris<br>
+                <input type="radio" id="mc" name="quest2" value="Leeds">Leeds<br>
+
+                <p>What is the capital in Europ</p>
+                <input type="radio" id="mc" name="quest3" value="Spain">Spain<br>
+                <input type="radio" id="mc" name="quest3" value="London">London<br>
+
+                <input type="button" id="btn" value="Check" onclick="btnMy()">
+            </form>
+
+            <div id="after-submit">
+                <p id="msg"> </p>
+                <img id="img" alt="">
+                <p id="all-good"> </p>
+            </div>
+
+        </div>
+        <script src="./js/app.js"></script>
+    </body>
+
+</html>
