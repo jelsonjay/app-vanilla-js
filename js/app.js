@@ -5,7 +5,7 @@ function btnMy() {
   let car3 = document.form.car3.value;
   let result = 0;
 
-  if (car1 === "Bugatti") {
+  if (car1 === "Ferrari") {
     result++;
   }
 
@@ -15,7 +15,10 @@ function btnMy() {
 
   if (car3 === "Bugatti") {
     result++;
+  } else if (result === 0) {
+    alert("Type the car name!");
   }
+
   let msg = [
     "Great Job!",
     "Pagani $2.8 million",
