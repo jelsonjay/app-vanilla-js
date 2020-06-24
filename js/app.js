@@ -5,19 +5,29 @@ function btnMy() {
   let quest3 = document.form.quest3.value;
   let correct = 0;
 
-  if (quest1 == "Country") {
+  if (quest1 === "Bugatti") {
     correct++;
   }
 
-  if (quest2 == "Pagani") {
+  if (quest2 === "Pagani") {
     correct++;
   }
 
-  if (quest3 == "Spain") {
+  if (quest3 === "Bugatti") {
     correct++;
   }
-  let msg = ["Great Job!", "Thats just okay", "You need to do better"];
-  let img = ["./pagani.jpeg", "./img/pic2.gif", "./img/pic3.gif"];
+  let msg = [
+    "Great Job!",
+    "Pagani $2.8 million",
+    "Ferrari $4 million",
+    "Bugatti $19 million",
+  ];
+  let img = [
+    "./img/ferrari.jpg",
+    "./img/pagani.jpg",
+    "./img/ferrari.jpg",
+    "./img/bugatti.jpg",
+  ];
   let range;
   //let store;
 
