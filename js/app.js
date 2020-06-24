@@ -1,8 +1,8 @@
 "use strict";
 function btnMy() {
   let quest1 = document.form.quest1.value;
-  let quest2 = document.form.quest2.value;
-  let quest3 = document.form.quest3.value;
+  let quest2 = document.form.car2.value;
+  let quest3 = document.form.car3.value;
   let correct = 0;
 
   if (quest1 === "Bugatti") {
