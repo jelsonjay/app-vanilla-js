@@ -40,12 +40,12 @@ function btnMy() {
   }
 
   if (result > 1) {
-    range = 0;
+    range = 2;
   }
 
   document.querySelector("#after-submit").style.visibility = "visible";
   document.querySelector("#msg").innerHTML = msg[range];
   document.querySelector("#all-good").innerHTML =
-    " You have got " + result + " result ";
+    " You have got " + result + " found ";
   document.querySelector("#img").src = img[range];
 }

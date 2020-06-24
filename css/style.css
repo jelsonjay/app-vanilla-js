@@ -3,6 +3,14 @@ body {
     background: #33cccc;
 }
 
+.container {
+    max-width: 1750px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #after-submit {
     visibility: hidden;
     background: chocolate;
