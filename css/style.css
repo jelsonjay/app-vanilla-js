@@ -1,17 +1,18 @@
 body {
     font-family: sans-serif;
-    background: #ccffcc;
+    background: #33cccc;
 }
 
 #after-submit {
     visibility: hidden;
-    background: #ff5459;
+    background: chocolate;
     padding: 10px 20px 10px 20px;
     width: 400px;
     border-radius: 10px;
     float: left;
     margin-left: 20px;
-    font-size: 1em;
+    font-size: 1.6em;
+    color: #fff;
 }
 
 #form {

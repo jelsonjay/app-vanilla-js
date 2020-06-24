@@ -1,3 +1,4 @@
+"use strict";
 function btnMy() {
   let quest1 = document.form.quest1.value;
   let quest2 = document.form.quest2.value;
@@ -8,7 +9,7 @@ function btnMy() {
     correct++;
   }
 
-  if (quest2 == "Paris") {
+  if (quest2 == "Pagani") {
     correct++;
   }
 
@@ -16,11 +17,7 @@ function btnMy() {
     correct++;
   }
   let msg = ["Great Job!", "Thats just okay", "You need to do better"];
-  let img = [
-    "https://media.tenor.com/images/615be83b1a316574a6ea429f0fa2f69f/tenor.gif",
-    "./img/pic2.gif",
-    "./img/pic3.gif",
-  ];
+  let img = ["./pagani.jpeg", "./img/pic2.gif", "./img/pic3.gif"];
   let range;
   //let store;
 
