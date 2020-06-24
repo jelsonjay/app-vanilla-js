@@ -1,19 +1,19 @@
 "use strict";
 function btnMy() {
-  let quest1 = document.form.quest1.value;
-  let quest2 = document.form.car2.value;
-  let quest3 = document.form.car3.value;
+  let car1 = document.form.car1.value;
+  let car2 = document.form.car2.value;
+  let car3 = document.form.car3.value;
   let correct = 0;
 
-  if (quest1 === "Bugatti") {
+  if (car1 === "Bugatti") {
     correct++;
   }
 
-  if (quest2 === "Pagani") {
+  if (car2 === "Pagani") {
     correct++;
   }
 
-  if (quest3 === "Bugatti") {
+  if (car3 === "Bugatti") {
     correct++;
   }
   let msg = [
