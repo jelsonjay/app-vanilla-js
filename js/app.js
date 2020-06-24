@@ -3,18 +3,18 @@ function btnMy() {
   let car1 = document.form.car1.value;
   let car2 = document.form.car2.value;
   let car3 = document.form.car3.value;
-  let correct = 0;
+  let result = 0;
 
   if (car1 === "Bugatti") {
-    correct++;
+    result++;
   }
 
   if (car2 === "Pagani") {
-    correct++;
+    result++;
   }
 
   if (car3 === "Bugatti") {
-    correct++;
+    result++;
   }
   let msg = [
     "Great Job!",
@@ -31,21 +31,21 @@ function btnMy() {
   let range;
   //let store;
 
-  if (correct < 1) {
+  if (result < 1) {
     range = 2;
   }
 
-  if (correct > 0 && correct < 3) {
+  if (result > 0 && result < 3) {
     range = 1;
   }
 
-  if (correct > 1) {
+  if (result > 1) {
     range = 0;
   }
 
   document.querySelector("#after-submit").style.visibility = "visible";
   document.querySelector("#msg").innerHTML = msg[range];
   document.querySelector("#all-good").innerHTML =
-    " You have got " + correct + " correct ";
+    " You have got " + result + " result ";
   document.querySelector("#img").src = img[range];
 }
