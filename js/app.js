@@ -21,9 +21,9 @@ function btnMy() {
 
   let msg = [
     "Great Job!",
-    "Pagani $2.8 million",
-    "Ferrari $4 million",
-    "Bugatti $19 million",
+    "Pagani £2.8 million",
+    "Ferrari £4 million",
+    "Bugatti £19 million",
   ];
   let img = [
     "./img/ferrari.jpg",
