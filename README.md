@@ -1,6 +1,6 @@
 # app-vanilla-js
 
-this is a simpl app with pure JavaScript 
+this is a simple project with pure html5, css & javascript 
  
 
 [Access My Project](https://jelsonjay.github.io/app-vanilla-js/)
